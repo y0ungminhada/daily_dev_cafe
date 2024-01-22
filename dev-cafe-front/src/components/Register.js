@@ -7,7 +7,7 @@ const NAME_REGEX=/^[ㄱ-ㅎㅏ-ㅣ가-힣]{2,5}$/;
 const EMAIL_REGEX = /^[A-Za-z0-9]([-_.]?[A-Za-z0-9])*@[A-Za-z0-9]([-_.]?[A-Za-z0-9])*\.[A-Za-z]{2,3}$/;
 const NICKNAME_REGEX = /^[a-zA-Z0-9ㄱ-ㅎㅏ-ㅣ가-힣]{2,10}$/;
 const PWD_REGEX = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=!])(?!.*\s).{8,20}$/;
-const REGISTER_URL = '/register';
+const REGISTER_URL = '/auth/signup';
 
 const Register = () => {
     const emailRef = useRef();

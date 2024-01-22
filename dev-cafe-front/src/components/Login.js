@@ -2,7 +2,7 @@ import { useRef, useState, useEffect } from 'react';
 import useAuth from '../hooks/useAuth';
 import axios from '../api/axios';
 
-const LOGIN_URL = '/auth';
+const LOGIN_URL = '/auth/signin';
 
 const Login = () => {
     const { setAuth } = useAuth();
